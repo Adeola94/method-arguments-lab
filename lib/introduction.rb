@@ -3,4 +3,8 @@ def introduction = ("Adeola")
   puts "Hi, my name is #{name}.\n"
 end 
 
-def 
+def introduction = ( name = "Adeola", program )
+  puts "Hi, my name is #{name}, and i am learning #{program}."
+end 
+
+introduction ("Ruby")
