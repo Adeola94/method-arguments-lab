@@ -6,5 +6,3 @@ end
 def introduction = ( name = "Adeola", program )
   puts "Hi, my name is #{name}, and i am learning #{program}."
 end 
-
-introduction ("Ruby")
