@@ -3,6 +3,6 @@ def introduction = ("Adeola")
   puts "Hi, my name is #{name}.\n"
 end 
 
-def introduction = ( name = "Adeola", language )
+def introduction = ( name, language )
   puts "Hi, my name is #{name}, and i am learning #{language}."
 end 
